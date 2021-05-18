@@ -1,0 +1,42 @@
+.container {
+	width: 100%;
+}
+
+.stages {
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 10%;
+	padding: 2vh;
+	margin-left: 2vh;
+	margin-right: 2vh;
+	background-color: #86839b;
+	color: white;
+}
+
+.stages:hover {
+	background-color: #484650;
+	cursor: pointer;
+}
+
+.stages .tooltip {
+	position: absolute;
+	top: 9vh;
+	visibility: hidden;
+	z-index: 1;
+	border: 1px solid black;
+	color: magenta;
+	background-color: silver;
+}
+
+.stages:hover .tooltip {
+	visibility: visible;
+}
+
+.arrowRight {
+	width: 50px;
+}
+
+.nav-item {
+	margin-right: 2vw;
+}
