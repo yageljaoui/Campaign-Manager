@@ -29,6 +29,7 @@ export default function MainScreen() {
 					<Route path='/search'>
 						<SearchTasks />
 					</Route>
+					<Route path='/' />
 				</Switch>
 			</div>
 		</Router>
