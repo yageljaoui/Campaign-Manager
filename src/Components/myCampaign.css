@@ -1,21 +1,26 @@
 .container {
+	position: relative;
+	margin-top: 5vh;
 	width: 100%;
 }
 
 .arrowRight {
-	width: 40px;
-	margin-right: 4px;
-	margin-left: 4px;
+	height: 100%;
+	vertical-align: middle;
+	width: 3vw;
+	margin-right: 2vh;
+	margin-left: 2vh;
 }
 
 .subnavbtn .tooltip {
 	position: absolute;
-	top: 9vh;
+	top: 2vh;
 	visibility: hidden;
 	z-index: 1;
 	border: 1px solid black;
-	color: magenta;
-	background-color: silver;
+	color: #67b667;
+	padding: 5px;
+	background-color: white;
 }
 
 .subnavbtn:hover .tooltip {
@@ -30,9 +35,11 @@
 
 .navbar a {
 	float: left;
-	font-size: 16px;
+	font-size: 1em;
 	color: black;
 	text-align: center;
+	border-radius: 10%;
+	margin-right: 0.2vw;
 	padding: 14px 16px;
 	text-decoration: none;
 	justify-content: center;
@@ -53,13 +60,14 @@
 	margin: 0;
 	border: 1px solid black;
 	border-radius: 10%;
-	background-color: #86839b;
-	color: white;
+	background-color: #b9b9b9;
+	color: black;
 }
 
 .navbar a:hover,
 .subnav:hover .subnavbtn {
-	background-color: #484650;
+	background-color: #585858;
+	color: white;
 	cursor: pointer;
 }
 
@@ -69,7 +77,8 @@
 }
 
 .subnav-content a:hover {
-	background-color: #484650;
+	background-color: #585858;
+	color: white;
 	cursor: pointer;
 }
 
@@ -79,7 +88,27 @@
 }
 
 .subnav-item {
-	display: flex;
-	background-color: #86839b;
+	background-color: #b9b9b9;
 	color: white;
+}
+
+.nav-item {
+	text-decoration: none;
+	color: white;
+	padding: 0.6vh;
+	margin-right: 2vh;
+	position: relative;
+	top: 2vh;
+	background-color: #585858;
+	border: 1px solid black;
+	border-radius: 10%;
+}
+
+.nav-item:hover {
+	background-color: #8b8b8b;
+	color: black;
+}
+.nav-item:active {
+	background-color: #7a7a7a;
+	color: black;
 }
