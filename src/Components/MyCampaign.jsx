@@ -1,5 +1,5 @@
 import './myCampaign.css';
-import ArrowRight from '../Assets/arrow-right.png';
+import ArrowRight from '../Assets/arrow-right.svg';
 
 export default function MyCampaign() {
 	return (
@@ -8,12 +8,13 @@ export default function MyCampaign() {
 			<div className='navbar'>
 				<div className='subnav'>
 					<button className='subnavbtn'>
+						<div className='tooltip'>ToolTip Text</div>
 						Panning <i className='fa fa-caret-down'></i>
 					</button>
 					<img className='arrowRight' src={ArrowRight} alt='' />
 					<div className='subnav-content'>
 						<a className='subnav-item' href='#company'>
-							management
+							Management
 						</a>
 						<a className='subnav-item' href='#team'>
 							Team
@@ -25,7 +26,8 @@ export default function MyCampaign() {
 				</div>
 				<div className='subnav'>
 					<button className='subnavbtn'>
-						Servies <i className='fa fa-caret-down'></i>
+						<div className='tooltip'>ToolTip Text</div>
+						Services <i className='fa fa-caret-down'></i>
 					</button>
 					<img className='arrowRight' src={ArrowRight} alt='' />
 					<div className='subnav-content'>
@@ -45,7 +47,8 @@ export default function MyCampaign() {
 				</div>
 				<div className='subnav'>
 					<button className='subnavbtn'>
-						Servies <i className='fa fa-caret-down'></i>
+						<div className='tooltip'>ToolTip Text</div>
+						Services <i className='fa fa-caret-down'></i>
 					</button>
 					<img className='arrowRight' src={ArrowRight} alt='' />
 					<div className='subnav-content'>
@@ -65,7 +68,8 @@ export default function MyCampaign() {
 				</div>
 				<div className='subnav'>
 					<button className='subnavbtn'>
-						Servies <i className='fa fa-caret-down'></i>
+						<div className='tooltip'>ToolTip Text</div>
+						Services <i className='fa fa-caret-down'></i>
 					</button>
 					<img className='arrowRight' src={ArrowRight} alt='' />
 					<div className='subnav-content'>
@@ -85,66 +89,7 @@ export default function MyCampaign() {
 				</div>
 				<div className='subnav'>
 					<button className='subnavbtn'>
-						Servies <i className='fa fa-caret-down'></i>
-					</button>
-					<img className='arrowRight' src={ArrowRight} alt='' />
-					<div className='subnav-content'>
-						<a className='subnav-item' href='#bring'>
-							Bring
-						</a>
-						<a className='subnav-item' href='#deliver'>
-							Deliver
-						</a>
-						<a className='subnav-item' href='#package'>
-							Package
-						</a>
-						<a className='subnav-item' href='#express'>
-							Express
-						</a>
-					</div>
-				</div>
-				<div className='subnav'>
-					<button className='subnavbtn'>
-						Servies <i className='fa fa-caret-down'></i>
-					</button>
-					<img className='arrowRight' src={ArrowRight} alt='' />
-					<div className='subnav-content'>
-						<a className='subnav-item' href='#bring'>
-							Bring
-						</a>
-						<a className='subnav-item' href='#deliver'>
-							Deliver
-						</a>
-						<a className='subnav-item' href='#package'>
-							Package
-						</a>
-						<a className='subnav-item' href='#express'>
-							Express
-						</a>
-					</div>
-				</div>
-				<div className='subnav'>
-					<button className='subnavbtn'>
-						Servies <i className='fa fa-caret-down'></i>
-					</button>
-					<img className='arrowRight' src={ArrowRight} alt='' />
-					<div className='subnav-content'>
-						<a className='subnav-item' href='#bring'>
-							Bring
-						</a>
-						<a className='subnav-item' href='#deliver'>
-							Deliver
-						</a>
-						<a className='subnav-item' href='#package'>
-							Package
-						</a>
-						<a className='subnav-item' href='#express'>
-							Express
-						</a>
-					</div>
-				</div>
-				<div className='subnav'>
-					<button className='subnavbtn'>
+						<div className='tooltip'>ToolTip Text</div>
 						Servies <i className='fa fa-caret-down'></i>
 					</button>
 					<img className='arrowRight' src={ArrowRight} alt='' />
@@ -166,21 +111,80 @@ export default function MyCampaign() {
 				<div className='subnav'>
 					<button className='subnavbtn'>
 						<div className='tooltip'>ToolTip Text</div>
-						Partners <i className='fa fa-caret-down'></i>
+						Services <i className='fa fa-caret-down'></i>
 					</button>
-
+					<img className='arrowRight' src={ArrowRight} alt='' />
 					<div className='subnav-content'>
-						<a className='subnav-item' href='#link1'>
+						<a className='subnav-item' href='#bring'>
+							Bring
+						</a>
+						<a className='subnav-item' href='#deliver'>
+							Deliver
+						</a>
+						<a className='subnav-item' href='#package'>
+							Package
+						</a>
+						<a className='subnav-item' href='#express'>
+							Express
+						</a>
+					</div>
+				</div>
+				<div className='subnav'>
+					<button className='subnavbtn'>
+						<div className='tooltip'>ToolTip Text</div>
+						Services <i className='fa fa-caret-down'></i>
+					</button>
+					<img className='arrowRight' src={ArrowRight} alt='' />
+					<div className='subnav-content'>
+						<a className='subnav-item' href='#bring'>
+							Bring
+						</a>
+						<a className='subnav-item' href='#deliver'>
+							Deliver
+						</a>
+						<a className='subnav-item' href='#package'>
+							Package
+						</a>
+						<a className='subnav-item' href='#express'>
+							Express
+						</a>
+					</div>
+				</div>
+				<div className='subnav'>
+					<button className='subnavbtn'>
+						<div className='tooltip'>ToolTip Text</div>
+						Services <i className='fa fa-caret-down'></i>
+					</button>
+					<img className='arrowRight' src={ArrowRight} alt='' />
+					<div className='subnav-content'>
+						<a className='subnav-item' href='#bring'>
+							Bring
+						</a>
+						<a className='subnav-item' href='#deliver'>
+							Deliver
+						</a>
+						<a className='subnav-item' href='#package'>
+							Package
+						</a>
+						<a className='subnav-item' href='#express'>
+							Express
+						</a>
+					</div>
+				</div>
+				<div className='subnav'>
+					<button className='subnavbtn'>
+						<div className='tooltip'>ToolTip Text</div>
+						Services <i className='fa fa-caret-down'></i>
+					</button>
+					<div className='subnav-content'>
+						<a className='subnav-item' href='#bring'>
 							Link 1
 						</a>
-						<a className='subnav-item' href='#link2'>
+						<a className='subnav-item' href='#deliver'>
 							Link 2
 						</a>
-						<a className='subnav-item' href='#link3'>
+						<a className='subnav-item' href='#package'>
 							Link 3
-						</a>
-						<a className='subnav-item' href='#link4'>
-							Link 4
 						</a>
 					</div>
 				</div>
