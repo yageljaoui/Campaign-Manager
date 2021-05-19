@@ -2,24 +2,13 @@
 	width: 100%;
 }
 
-.stages {
-	position: relative;
-	display: inline-block;
-	border: 1px solid black;
-	border-radius: 10%;
-	padding: 2vh;
-	margin-left: 2vh;
-	margin-right: 2vh;
-	background-color: #86839b;
-	color: white;
+.arrowRight {
+	width: 40px;
+	margin-right: 4px;
+	margin-left: 4px;
 }
 
-.stages:hover {
-	background-color: #484650;
-	cursor: pointer;
-}
-
-.stages .tooltip {
+.subnavbtn .tooltip {
 	position: absolute;
 	top: 9vh;
 	visibility: hidden;
@@ -29,14 +18,68 @@
 	background-color: silver;
 }
 
-.stages:hover .tooltip {
+.subnavbtn:hover .tooltip {
 	visibility: visible;
 }
 
-.arrowRight {
-	width: 50px;
+.navbar {
+	justify-content: center;
+	display: flex;
+	left: 20vh;
 }
 
-.nav-item {
-	margin-right: 2vw;
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	justify-content: center;
+}
+
+.subnav {
+	float: left;
+	overflow: hidden;
+}
+
+.subnav .subnavbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	border: 1px solid black;
+	border-radius: 10%;
+	background-color: #86839b;
+	color: white;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+	background-color: #484650;
+	cursor: pointer;
+}
+
+.subnav-content {
+	display: none;
+	z-index: 1;
+}
+
+.subnav-content a:hover {
+	background-color: #484650;
+	cursor: pointer;
+}
+
+.subnav:hover .subnav-content {
+	position: absolute;
+	display: flex;
+}
+
+.subnav-item {
+	display: flex;
+	background-color: #86839b;
+	color: white;
 }
